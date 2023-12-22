@@ -38,6 +38,7 @@ public class EcurieStepDefs {
         ecurie.ajoutPilote(currentPilote);
     }
 
+
     @Then("the driver {string} is associated with the team {string}")
     public void theDriverIsAssociatedWithTheTeam(String driverName, String teamName) {
         Pilote piloteToCheck = new Pilote();
